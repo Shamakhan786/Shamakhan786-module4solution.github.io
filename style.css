@@ -1,0 +1,71 @@
+body{
+    font-family: cursive;
+    font-size: 15px;
+}
+
+button{
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 80%;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    transition: background-color 0.is;
+}
+
+.choices button{
+    background-color: white;
+}
+
+.choisec button{
+    display: block;
+}
+
+input[type="text"] {
+    font-size: 80%;
+}
+
+ol{
+    padding-left: 5px;
+    list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+    background-color: wheat;
+}
+
+.header{
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+
+.hide{
+    display: none;
+}
+
+.start{
+    text-align: center;
+}
+
+.scores{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.feedback{
+    font-style: normal;
+    font-size: 100px;
+    margin: 20px;
+    padding: 15px;
+    color: teal;
+    border-top: 2px solid gray;
+}
+
+.timer{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
